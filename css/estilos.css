@@ -1,0 +1,263 @@
+@font-face {
+    font-family: "NombreFont";
+    src: url(../template/fonts/archivofont.ttf) format("truetype");
+}
+
+.logo{
+  position: absolute;
+  z-index: 999;
+  left: 440px;
+  top: -50px;
+}
+
+
+.nav{
+  list-style: none;
+  max-width: 620px;
+  height: 50px;
+  background: rgb(0, 0, 0);
+  position: relative;
+  bottom: 0px;
+  z-index: 999;
+
+
+}
+
+.nav li{
+   display: inline-block;
+   float: left;
+   padding: 26px;
+   font-size: 20px;
+   padding-top: 12px;
+   font-family: 'DK Midnight Chalker';
+   font-weight: normal;
+}
+
+.nav li a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+
+
+
+
+}
+
+.nav li a:hover{
+  color: #a0c800;
+}
+
+
+
+.columnax3{
+  width: 31.5%;
+  float: left;
+  padding: 10px;
+  padding-top: 40px;
+  text-align: center;
+  position: relative;
+  bottom: 830px;
+}
+
+.columnax3 a img{
+  width: 200px;
+
+}
+
+.columnax3 a img:hover{
+  -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+
+.columnax3 h2{
+  color: #ffffff;
+  font-weight: normal;
+}
+
+
+.parte1{
+
+  position: relative;
+  bottom: 600px;
+}
+
+.parte1 img{
+  float: left;
+}
+
+.parte1 h1{
+  text-align: center;
+  font-size: 50px;
+  color: #a0c802;
+  position: relative;
+  top: 150px;
+}
+
+.parte1 p{
+  width: 400px;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  left: 750px;
+  bottom: 380px;
+  color:#828282;
+}
+
+.parte1 .galeria{
+  position: relative;
+  left: 858px;
+  bottom: 340px;
+  width: 160px;
+  padding: 12px 62px;
+  border-radius: 5px;
+  border: 0px solid;
+  background: #a0c802;
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+
+}
+
+.parte1 .galeria:hover{
+  background: rgb(32, 34, 37);
+  padding: 14px 72px;
+}
+
+.parte2{
+  position: relative;
+  bottom: 850px;
+  float: left;
+}
+
+.parte2 img{
+  float: right;
+  position: relative;
+  left: 650px;
+
+}
+
+.parte2 h1{
+  text-align: center;
+  font-size: 50px;
+  color: #a0c802;
+  position: relative;
+  bottom: 450px;
+  left: 70px;
+}
+
+.parte2 p{
+   position: relative;
+   font-size: 20px;
+   text-align: center;
+   left: 170px;
+   width: 450px;
+   bottom: 430px;
+   color:#828282;
+}
+
+.parte2 .galeria2{
+
+  position: relative;
+  left: 290px;
+  bottom: 390px;
+  width: 160px;
+  padding: 12px 62px;
+  border-radius: 5px;
+  border: 0px solid;
+  background: #a0c802;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+
+  }
+
+  .parte2 .galeria2:hover{
+    background: rgb(32, 34, 37);
+    padding: 14px 72px;
+    transition: 0.3s;
+
+  }
+
+footer{
+  width: 100%;
+  height: 530px;
+  background: #2d2d2d;
+}
+
+footer img{
+  width: 100%;
+  z-index: 999;
+  position: relative;
+  bottom: 100px;
+}
+
+footer h1{
+  color:#a0c802;
+  font-size: 50px;
+}
+
+.contacto{
+  width: 500px;
+  z-index: 999;
+  text-align: center;
+  position: relative;
+  bottom: 250px;
+  left: 390px;
+  line-height: 25px;
+}
+
+.contacto p{
+  color: rgb(255, 255, 255);
+  padding-top: 40px;
+}
+
+.formulario{
+  width: 750px;
+  height: auto;
+  z-index: 999;
+  position: relative;
+  bottom: 240px;
+  left: 300px;
+
+}
+
+.caja1{
+  width: 280px;
+  height: 35px;
+  border-radius: 5px;
+  border: 0 solid;
+  padding: 5px;
+  margin: 15px;
+  background: #252525;
+  color: #ffffff;
+}
+
+.caja2{
+  width: 608px;
+  left: 120px;
+  position: relative;
+  left: 12px;
+  border-radius: 5px;
+  border: 0 solid;
+  background: #252525;
+  padding: 5px;
+  color: #ffffff;
+}
+
+.boton{
+  width: 175px;
+  height: 45px;
+  position: relative;
+  left: 225px;
+  top: 40px;
+  border-radius: 5px;
+  border: 0 solid;
+  background: #252525;
+  color: #ffffff;
+}
+
+.boton:hover{
+  background: #a0c802;
+}

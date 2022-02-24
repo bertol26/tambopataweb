@@ -5,61 +5,49 @@
   <meta charset="utf-8">
   <title></title>
   <link rel="stylesheet" href="css/flexslider.css" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
   <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <script src="js/jquery.flexslider.js"></script>
   <link rel="stylesheet" href="css/estilos.css">
   <link rel="stylesheet" href="css/slider.css">
   <link rel="stylesheet" href="css/animate.css">
-  <script type="text/javascript" charset="utf-8">
-
-    $(window).load(function () {
-      $('.flexslider').flexslider({
-        touch: true,
-        pauseOnAction: false,
-        pauseOnHover: false,
-      });
-    });
-  </script>
 </head>
 
 <body>
   <header class="header">
-      <nav class="navbar">
-        <ul class="nav-list">
+    <nav class="navbar">
+      <a class="icon-mobile"><img src="img/icon-toggle.png" alt=""></a>
+      <ul class="nav-list">
         <li><a href="#nosotros">Nosotros</a></li>
         <li><a href="#servicio">Servicio</a></li>
         <li><a href="#atractivos">Atractivos Turisticos</a></li>
         <li><a href="#guia">Guia de animales</a></li>
         <li><a href="#contacto">Contacto</a></li>
       </ul>
-      </nav>
+    </nav>
+    <div class="flexslider">
+      <img src="img/LOGO.png" class="logo">
+      <ul class="slides">
+        <li>
+          <img src="img/BANNER.png" alt="">
+          <section class="flex-caption">
+          </section>
+        </li>
+        <li>
+          <img src="img/banner2.png" alt="">
+          <section class="flex-caption">
+          </section>
+        </li>
+        <li>
+          <img src="img/banner3.jpg" alt="">
+          <section class="flex-caption ">
+          </section>
+        </li>
+      </ul>
+  
+  
+    </div>
   </header>
-
-  <div class="flexslider">
-    <img src="img/LOGO.png" class="logo">
-    <ul class="slides">
-      <li>
-        <img src="img/BANNER.png" alt="">
-        <section class="flex-caption">
-        </section>
-      </li>
-      <li>
-        <img src="img/banner2.png" alt="">
-        <section class="flex-caption">
-        </section>
-      </li>
-      <li>
-        <img src="img/banner3.jpg" alt="">
-        <section class="flex-caption ">
-        </section>
-      </li>
-    </ul>
-
-
-  </div>
- <!-- <div class="fixed-container">
+  <!-- <div class="fixed-container">
     <ul class="nav"
       style="font-family:tahoma; background-color: rgba(0, 0, 0, 0.7); background: rgba(0, 0, 0, 0.5); color: rgba(0, 0, 0, 0.7);">
       <li><a href="#nosotros">Nosotros</a></li>
@@ -91,8 +79,10 @@
 
       </div>
       <section class="servicios" id="servicio">
-        <img class="fondo-web" style="width:100%; position:absolute; height: 126%;" src="./img/fondo-servicios.png" alt="">
-        <img class="fondo-mobile" style="width:100%; position:absolute; height: 105%;" src="./img/fondo-servicios-mobile.png" alt="">
+        <img class="fondo-web" style="width:100%; position:absolute; height: 126%;" src="./img/fondo-servicios.png"
+          alt="">
+        <img class="fondo-mobile" style="width:100%; position:absolute; height: 105%;"
+          src="./img/fondo-servicios-mobile.png" alt="">
         <div class="section-services">
           <h1 style="color: #ffffff;font-size: 60px;text-align: center;font-family: 'DK Midnight Chalker';"
             class="wow slideInLeft">SERVICIOS</h1>
@@ -135,7 +125,7 @@
 
 
         <section class="section-atractivos" style="width:100%;height:auto;">
-          <div class="parte1" id="atractivos">
+          <div class="parte1 wow wobble" data-wow-duration="2s" data-wow-delay="0s" id="atractivos">
             <!-- <div class="wow wobble" data-wow-duration="2s" data-wow-delay="0s">-->
             <div class="div-atractivos">
               <img src="img/atractivo.png">
@@ -149,7 +139,7 @@
             </div>
             <!-- </div>-->
           </div>
-          <div class="parte2" id="guia">
+          <div class="parte2 wow rubberBand" data-wow-duration="2s" data-wow-delay="0s" id="guia">
             <div class="div-animales-contenido">
               <h1 style="font-family: 'DK Midnight Chalker';">ANIMALES EXÓTICOS</h1>
               <p>Los animales mas exóticos del mundo. En el planeta tierra encontramos una variedad inmensa de animales
@@ -169,7 +159,7 @@
           <footer id="contacto">
 
             <img class="fondo-footer" src="img/footer.png">
-            <div class="contacto">
+            <div class="contacto wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0s">
               <!-- <div class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0s" >-->
               <h1 style="font-family: 'DK Midnight Chalker';">CONTACTO</h1>
               <p>Jiron Loreto Nro 319, Puerto Maldonado, Tambopata, Peru</p>
@@ -218,6 +208,17 @@
           <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"
             integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
             crossorigin="anonymous"></script>
+          <script src="js/jquery.flexslider.js"></script>
+          <script>
+
+            $(window).load(function () {
+              $('.flexslider').flexslider({
+                touch: true,
+                pauseOnAction: false,
+                pauseOnHover: false,
+              });
+            });
+          </script>
 </body>
 
 </html>

@@ -1,6 +1,5 @@
-@font-face {
-  font-family: "NombreFont";
-  src: url(../template/fonts/archivofont.ttf) format("truetype");
+body {
+  font-family: 'DK Midnight Chalker';
 }
 
 .logo {
@@ -39,7 +38,7 @@
 }
 
 .nav-list li {
-  font-size: 20px;
+  font-size: 28px;
   font-family: "DK Midnight Chalker";
   font-weight: normal;
 }
@@ -60,7 +59,7 @@
 }
 
 .info-nosotros {
-  font-size: 22px;
+  font-size: 26px;
   color: #828282;
   width: 100%;
   text-align: center;
@@ -162,7 +161,7 @@
 }
 
 .div-contenido p {
-  font-size: 20px;
+  font-size: 23px;
   color: #828282;
   text-align: center;
 }
@@ -223,7 +222,7 @@
 }
 
 .div-animales-contenido p {
-  font-size: 20px;
+  font-size: 23px;
   text-align: center;
   color: #828282;
   margin: 0 auto;

@@ -1,3 +1,11 @@
+
+
+
+@font-face {
+    font-family: 'DK Midnight Chalker';
+    src: url("../fonts/DK\ Midnight\ Chalker.otf") format("opentype");
+}
+
 body {
   font-family: 'DK Midnight Chalker';
 }
